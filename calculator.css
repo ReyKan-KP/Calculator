@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Bangers&family=Comic+Neue:ital,wght@1,700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #b6d7f7;
+  background-image: linear-gradient(62deg, #8ec5fc 0%, #b5a8c2 100%);
+}
+.container {
+  height: 60vh;
+  width: 40vh;
+  margin-top: 15vh;
+}
+header {
+  font-family: "Bangers", cursive;
+  font-weight: bolder;
+  font-size: 2rem;
+  text-decoration: underline;
+  color: #2616afb6;
+  height: 10vh;
+  margin-top: 10vh;
+}
+
+.container1 {
+  background: #212c42;
+  font-family: "Bangers", cursive;
+}
+#displayBox {
+  padding-top: 1rem;
+  color: #18d4a2;
+  font-size: 3rem;
+  text-align: right;
+  padding-right: 12px;
+  height: 15vh;
+  width: 40vh;
+  overflow-wrap: break-word;
+}
+.container2 {
+  display: grid;
+  background-color: #2e3851;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 2px;
+  height: 45vh;
+  cursor: pointer;
+  font-family: "Comic Neue", cursive;
+  padding: 1rem;
+  text-align: center;
+}
+.box {
+  border-radius: 10px;
+  font-size: 1.5em;
+  padding-top: 1.5rem;
+  color: #97a8a0;
+}
+.box:hover {
+  background: #364564;
+  font-size: 1.6em;
+  font-weight: bolder;
+}
+.calculate {
+  color: #18d4a2;
+  border-radius: 50px;
+}
+.equal {
+  font-size: 3rem;
+  background-color: #2e3851;
+  border-radius: 0;
+}
+.equal:hover {
+  background: #364564;
+  font-size: 3.3rem;
+  font-weight: bolder;
+}
